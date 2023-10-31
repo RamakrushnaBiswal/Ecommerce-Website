@@ -69,7 +69,11 @@ button.white{
   outline: none;
   transition: 0.2s;
 }
-
+ #header img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+ }
 body {
   width: 100%;
 }
@@ -127,12 +131,11 @@ body {
   #close{
     display: none;
   }
-
   #hero{
-    background-image: url("img/hero4.png");
+    background-image: url("img/hero4.jpg");
     height: 90vh;
     width: 100%;
-    background-position: top 25% right 0%;
+    background-position: top 40% right 0%;
     background-size: cover;
     padding: 0 80px;
     display:flex;
@@ -235,6 +238,7 @@ body {
   #product1 .pro img{
     width: 100%;
     border-radius: 20px;
+    height: 50vh;
   }
  #product1 .pro .des{
   text-align: start;
@@ -327,7 +331,7 @@ body {
 }
 
 #sm-banner .banner-box2{
-  background-image: url(img/banner/b10.jpg);
+  background-image: url("img/products/s3.jpg");
 }
 
 #sm-banner h4{
@@ -363,7 +367,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("img/banner/b4.jpg");
+  background-image: url("img/products/s1.jpg");
   width: 30%;
   height: 40vh;
   background-size: cover;
@@ -372,10 +376,10 @@ body {
   margin-bottom: 20px;
 }
 #banner3 .banner-box2{
-  background-image: url("img/banner/b18.jpg");
+  background-image: url("img/products/s2.jpg");
 }
 #banner3 .banner-box3{
-  background-image: url("img/banner/b7.jpg");
+  background-image: url("img/products/s4.jpg");
 }
 #banner3 h2{
   color: #fff;
@@ -448,6 +452,9 @@ footer .col{
 
 footer .logo{
   margin-bottom: 30px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
 }
 
 footer h4{
