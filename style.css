@@ -150,15 +150,21 @@ body {
     color: #088178;
   }
   #hero button{
-    background:url("img/button.png");
-    background-color: transparent;
+    background-color: palevioletred;
     color: #088178;
     border: 0;
     padding: 14px 80px 14px 65px;
     background-repeat: no-repeat;
+    border-radius: 15px;
     cursor: pointer;
     font-weight: 700;
     font-size: 15px;
+    transition: 0.3s;
+  }
+
+  #hero button:hover{
+    background-color: #088178;
+    color: palevioletred;
   }
 
   #feature{
@@ -285,7 +291,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("img/banner/b2.jpg");
+  background-image: url("img/banner45.jpg");
   width: 100%;
   height: 40vh;
   background-size: cover;
@@ -293,12 +299,12 @@ body {
 
  }
  #banner h4{
-  color: #fff;
+  color: #088178;
   font-size: 16px;
  }
 
 #banner  h2{
-  color: #fff;
+  color: #0f0e0eef;
   font-size: 30px;
   padding: 10px 0;
 }
